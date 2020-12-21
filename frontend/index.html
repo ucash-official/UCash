@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UCash</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/fontawesome-free-5.15.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    
+</head>
+<body>
+
+<header>
+    <div class="nav-wrapper fix ">
+        <nav class="container">
+            <div class="bars-wrapper ">
+                <i class="fas fa-bars"></i>
+                <ul class="menu-bar">
+                    <li><a href="" class="active" id="Home">Home</a></li>
+                    <li><a href="" id="Banks">Banks</a></li>
+                    <li><a href="" id="BoardRoom">Boardroom</a></li>
+                    <li><a href="" id="StakingRoom">Stakingroom</a></li>
+                    <li><a href="" id="Docs">Docs</a></li>
+                    <div class="social-wrapper">
+                        <a href="https://t.me/UcashProtocol" target="_blank">Telegram</a>
+                        <a href="https://discord.gg/qDC9K64aRZ" target="_blank">Discord</a>
+                        <a href="https://twitter.com/UCashProtocol" target="_blank">Twitter</a>
+                        <a href="https://ucashprotocol.medium.com/" target="_blank">Medium</a>
+                    </div>
+                </ul>
+            </div>
+            <div class="logo-wrapper">
+                UCash
+            </div>
+
+            <div class="user-wrapper">
+                <a href="" class="unlock-btn"><i class="fas fa-lock"></i>UnlockWallet</a>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <div class="container">
+
+        <div class="intro">
+            <h1>Welcome to UCash!</h1>
+            <h4>Buy, sell, and provide liquidity for UBC and UCS on Uniswap</h4>
+        </div>
+        <div class="home">
+            <div class="home-content">
+                <div class="home-content-title">
+                    UBC
+                </div>
+                <div class="home-content-body">
+                    <div class="logo">
+                        <img src="./img/UBC.png" alt="">
+                    </div>
+                    <div class="supply">
+                        <p id="cashSupply">0</p>
+                        <a href="https://etherscan.io/token/0x1cdE42a34D549fBc1E75f63e56867F14a8E1175b" target="_blank">Circulating Supply</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="home-content">
+                <div class="home-content-title">
+                    UCS
+                </div>
+                <div class="home-content-body">
+                    <div class="logo">
+                        <img src="./img/UCS.png" alt="">
+                    </div>
+                    <div class="supply">
+                        <p id="shareSupply">0</p>
+                        <a href="https://etherscan.io/token/0xE7bf7fE480a707cf516B4DC431Ea8958Ab427220" target="_blank">Total supply</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</main>
+
+
+<div class="unlcok-modal" id="unlock-modal">
+    <div class="unlock">
+        Unlock wallet
+    </div>
+</div>
+
+
+<div class="notify-wrapper">
+</div>
+
+<script src="./js/jquery.min.js"></script>
+
+<script src="./js/ethers.js"></script>
+
+<script src="./js/index.js"></script>
+
+</body>
+</html>
+
+
