@@ -1,7 +1,7 @@
   
 pragma solidity ^0.6.0;
 
-interface IBasisAsset {
+interface IUCashAsset {
     function mint(address recipient, uint256 amount) external returns (bool);
 
     function burn(uint256 amount) external;
